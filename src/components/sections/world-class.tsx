@@ -1,10 +1,11 @@
 import { MaxWidthContainer } from "@/components/max-width-container"
-
+import { FeatureSection8 } from "@/components/pro-blocks/landing-page/feature-sections/feature-section-8"
 export function WorldClass() {
   return (
-    <section id="world-class" className="py-16 sm:py-24 lg:py-32">
+    <section id="world-class" className="py-8 sm:py-12 lg:py-16">
       <MaxWidthContainer>
-        <h2 className="text-3xl font-bold">World-Class</h2>
+    
+       <FeatureSection8 />
       </MaxWidthContainer>
     </section>
   )

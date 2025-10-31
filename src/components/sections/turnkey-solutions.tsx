@@ -1,10 +1,10 @@
 import { MaxWidthContainer } from "@/components/max-width-container"
-
+import { FeatureSection3 } from "@/components/pro-blocks/landing-page/feature-sections/feature-section-3"
 export function TurnkeySolutions() {
   return (
-    <section id="turnkey-solutions" className="py-16 sm:py-24 lg:py-32">
+    <section id="turnkey-solutions" className="py-8 sm:py-12 lg:py-16">
       <MaxWidthContainer>
-        <h2 className="text-3xl font-bold">Turnkey Solutions (Soluciones llave en mano)</h2>
+        <FeatureSection3 />
       </MaxWidthContainer>
     </section>
   )
