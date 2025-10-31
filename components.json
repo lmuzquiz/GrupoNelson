@@ -18,5 +18,12 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "registries": {}
+  "registries": {
+    "@shadcndesign": {
+      "url": "https://shadcndesign-registry.vercel.app/api/registry/{name}",
+      "headers": {
+        "X-License-Key": "5127C050-AF4C-4DE2-B7BC-19EDBCD0D8D9"
+      }
+    }
+  }
 }
